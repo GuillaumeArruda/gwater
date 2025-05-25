@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmdegye6mpj7j"]
+
+[ext_resource type="PackedScene" uid="uid://d178jd7oeyqxu" path="res://scenes/base_ship.tscn" id="1_3nuxk"]
+
+[node name="BaseMap" type="Node3D"]
+
+[node name="BaseShip" parent="." instance=ExtResource("1_3nuxk")]
